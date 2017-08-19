@@ -1,0 +1,28 @@
+.logo {
+  height: 32px;
+  border-radius: 6px;
+  margin: 16px;
+  text-transform: uppercase;
+  font-weight: bold;
+  line-height: 32px;
+}
+
+.logo img {
+  height: 100%;
+  margin-right: 7px;
+  float: left;
+}
+
+.ant-layout-sider-collapsed .anticon {
+  font-size: 16px;
+  margin-left: 8px;
+}
+
+.ant-layout-sider-collapsed .text,
+.ant-layout-sider-collapsed .nav-text {
+  display: none;
+}
+
+.ant-layout-sider-collapsed .ant-menu-submenu-vertical > .ant-menu-submenu-title:after {
+  display: none;
+}
